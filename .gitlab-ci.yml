@@ -1,5 +1,5 @@
 py36-tests:
-  image: python:3.6
+  image: python:3.6-alpine
   script:
     - pip install tox
     - tox -e python3.6
