@@ -1,4 +1,4 @@
-from prod import add
+from prod.func import add
 
 
 def test_add():
