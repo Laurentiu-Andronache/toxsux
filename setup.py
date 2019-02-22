@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name='toxsux',
     version='2019.2b2',
-    package_dir=find_packages(),
+	packages=find_packages(where="src"),
+    package_dir={"": "src"},
     url='https://gitlab.com/pypy/toxsux',
     license='MIT',
     author='Laurențiu Andronache',
